@@ -32,25 +32,27 @@ Habitat Tiles: Frankly, whatever room is leftover in the box.
 ## Slicing
 We have our models, either designed or downloaded, let's turn these meshes into a language the printer can understand; a series of nozzle head movements and extruder... extrusions? I'll try to give an overview of the steps below.
 
+I also included a sample `.3mf` file here that you can reference. A `.3mf` file contains slicer information like print settings, object orientation, build plates, and more.
+
 1. Export the meshes as `.stl` files. In Fusion, I do this by right clicking the body I want to export under the component tree on the left and selecting "save as mesh". Make sure you save it as a `.stl binary`. 
-2. Open up your slicer program
-3. Click "new project"
-4. Press `ctrl + I` or click on the cube with a plus sign in the top toolbar to add a new object
+2. Open up your slicer program.
+3. Click "new project".
+4. Press `ctrl + I` or click on the cube with a plus sign in the top toolbar to add a new object.
 5. Select the object you want to print, and import it onto the build plate (for demonstration's sake, I'll use the `Starter Tiles.stl` file).
 6. Select the "0.20mm Standard @BBL X1C" profile from the dropdown in the left menu above the "Quality, Strength, Speed, etc" tabs.
 7. Orient the object for printing, following these general principles:
 	1. Minimize overhangs (our printer is really good, but it can't print in thin air yet).
 	2. Minimize the need for support (it's fine to have some, but in general I try to design and place my objects in ways so that they don't need much support).
-	3. Best practices say to only print one object at a time, I never follow this one
+	3. Best practices say to only print one object at a time, I never follow this one.
 8. Press "Auto Orient objects on plate" next to the build plate (an A in a box) to do all of step 6 automatically.
-9. Enable support
-	1. In the left menu, navigate to the "support" tab
-	2. Check "enable support"
-	3. Change type to Tree(auto)
-	4. Leave style as default
-10. Press "slice plate"
-11. Make sure there are no errors, and that the object looks normal
-12. Press "print plate"
+9. Enable support:
+	1. In the left menu, navigate to the "support" tab.
+	2. Check "enable support".
+	3. Change type to Tree(auto).
+	4. Leave style as default.
+10. Press "slice plate".
+11. Make sure there are no errors, and that the object looks normal.
+12. Press "print plate".
 13. Wait for the part to be done printing!
 
 ## Printer Basics
