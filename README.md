@@ -6,7 +6,7 @@ Hooray!
 This file, and all others mentioned are available at https://github.com/sredna43/Christmas-3D-Printing-Guide.
 ## Software
 You'll need the following apps:
-1. A CAD program (I use [Autodesk Fusion for Personal Use](https://www.autodesk.com/products/fusion-360/personal))).
+1. A CAD program (I use [Autodesk Fusion for Personal Use](https://www.autodesk.com/products/fusion-360/personal)).
 2. A slicer (I use [Orca Slicer](https://github.com/SoftFever/OrcaSlicer/releases/latest), a fork of Bambu Studio).
 
 You already know what a CAD program is, and I assume you know how to use one (probably much better than I do). I will tell you this, however, I design parts that need to fit together to a 0.15mm tolerance minimum and this seems to work well for my applications.
